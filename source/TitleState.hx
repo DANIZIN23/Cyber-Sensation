@@ -363,7 +363,7 @@ class TitleState extends MusicBeatState
 
 		var pressedEnter:Bool = controls.ACCEPT;
 
-		#if mobile
+		#if android 
 		for (touch in FlxG.touches.list)
 		{
 			if (touch.justPressed)
